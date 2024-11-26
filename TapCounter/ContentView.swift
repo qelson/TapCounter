@@ -21,7 +21,7 @@ struct ContentView: View {
             Button(action: {
                 count += 1
             }) {
-                Text("Tap Me to count")
+                Text("Tap Me")
                     .font(.title)
                     .padding()
                     .background(Color.blue)
